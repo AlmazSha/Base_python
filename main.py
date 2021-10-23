@@ -25,6 +25,17 @@ user_time = f"Время в формате чч:мм:сс: {hours:02}:{minute:02
 print(user_time)
 
 
+#Узнайте у пользователя число n. Найдите сумму чисел n + nn + nnn. Например, пользователь ввёл число 3.
+# Считаем 3 + 33 + 333 = 369.
+number = input("Введите число n: ")
+number_1 = int(number)
+number_2 = number + number
+number_2 = int(number_2)
+number_3 = number + number + number
+number_3 = int(number_3)
+sum_1 = number_1 + number_2 + number_3
+sum = f"Сумма чисел в формате n + nn + nnn равна: {number_1} + {number_2} + {number_3} = {sum_1}"
+print(sum)
 
 
 
