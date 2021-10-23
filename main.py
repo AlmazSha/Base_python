@@ -1,16 +1,14 @@
-# This is a sample Python script.
+# 1. Поработайте с переменными, создайте несколько, выведите на экран, запросите у пользователя несколько чисел и строк
+# и сохраните в переменные, выведите на экран
+peremennaya_1 = 5
+peremennaya_2 = 28
+print("Первая переменная: ", peremennaya_1)
+print("Вторая переменная: ", peremennaya_2)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+peremennaya_3 = int(input("Введите число: "))
+peremennaya_4 = int(input("Введите ещё число: "))
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#2. Пользователь вводит время в секундах. Переведите время в часы, минуты и секунды и выведите в формате чч:мм:сс.
+# Используйте форматирование строк.
