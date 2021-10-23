@@ -38,6 +38,17 @@ sum = f"Сумма чисел в формате n + nn + nnn равна: {number
 print(sum)
 
 
+# Пользователь вводит целое положительное число. Найдите самую большую цифру в числе.
+# Для решения используйте цикл while и арифметические операции.
+whole_number = int(input("Введите целое положительное число: "))
+z = 0
+while whole_number > 10:
+    result = whole_number % 10
+    if result > z:
+        z = result
+    whole_number //= 10
+print(z)
+
 
 
 
